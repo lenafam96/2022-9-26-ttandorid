@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bai3_main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lựa chọn bài toán"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+    <RadioGroup
+        android:id="@+id/radioGroup_bai3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <RadioButton
+            android:id="@+id/rad_bai3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPTBH"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KTNT"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAO CHUOI"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phan tu chan trong mang"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tich ba so"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KT HOAN HAO"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/rad_bai3_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nối xâu"
+            android:textSize="20dp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:paddingBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:id="@+id/btn_bai3_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <Button
+                android:id="@+id/btn_bai3_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:backgroundTint="@android:color/darker_gray"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
