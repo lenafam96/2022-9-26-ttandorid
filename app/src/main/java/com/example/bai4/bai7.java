@@ -38,5 +38,6 @@ public class bai7 extends AppCompatActivity {
                 Toast.makeText(bai7.this, adapter.getName(position), Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 }
