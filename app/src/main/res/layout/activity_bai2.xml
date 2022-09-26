@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nhập hệ số a:"
+            android:inputType="text"
             android:textColor="@color/black"
             android:textSize="20sp"/>
         <EditText
@@ -42,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nhập hệ số b:"
+            android:inputType="text"
             android:textColor="@color/black"
             android:textSize="20sp"/>
         <EditText
@@ -60,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nhập hệ số c:"
+            android:inputType="text"
             android:textColor="@color/black"
             android:textSize="20sp"/>
         <EditText
@@ -85,6 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20dp"
+            android:textColor="@color/black"
             android:enabled="false"/>
     </LinearLayout>
     <LinearLayout
